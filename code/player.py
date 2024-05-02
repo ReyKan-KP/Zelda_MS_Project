@@ -47,7 +47,7 @@ class Player(Entity):
                              'attack': 100, 'magic': 100, 'speed': 100}
         self.health = self.stats['health'] * 0.5
         self.energy = self.stats['energy'] * 0.8
-        self.exp = 5000
+        self.exp = 000
         self.speed = self.stats['speed']
 
         # damage timer
